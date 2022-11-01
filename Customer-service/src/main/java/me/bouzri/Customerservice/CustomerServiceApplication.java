@@ -20,7 +20,7 @@ public class CustomerServiceApplication {
 	CommandLineRunner start(CustomerRepository cr)
 	{
 		return args -> {
-			Stream.of("Mohamed", "Sanae", "Ali").forEach(c -> {
+			Stream.of("Bouzri","Mohamed", "Sanae", "Ali").forEach(c -> {
 				Customer customer = new Customer();
 				customer.setEmail(c.toLowerCase()+"@gmail.com");
 				customer.setName(c.toUpperCase());
