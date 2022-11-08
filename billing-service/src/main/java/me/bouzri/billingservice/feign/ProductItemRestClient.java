@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "PRODUCT-SERVICE")
 public interface ProductItemRestClient {
 
-    @GetMapping(path = "/products")
-    PagedModel<Product> pageProducts(@RequestParam(name = "page", defaultValue = "0") int page,
-                                            @RequestParam(name = "size", defaultValue = "4") int size);
-    @GetMapping(path = "/products/{id}")
-    Product getProductById(@PathVariable Long id);
+    @GetMapping(path = "/products?projection=full")
+    PagedModel<Product> pageProducts(@RequestParam(name = "page") int page,
+                                            @RequestParam(name = "size") int size);
+    @GetMapping(path = "/products/{id}?projection=full")
+    Product getProductById(@PathVariable String id);
 }

@@ -10,9 +10,9 @@ import java.util.Collection;
 @FeignClient(name = "CUSTOMER-SERVICE")
 public interface CustomerRestClient {
 
-    @GetMapping(path = "/customers/{id}")
+    @GetMapping(path = "/customers/{id}?projection=full")
     Customer getCustomer(@PathVariable(name = "id") Long id);
 
-    @GetMapping(path = "/customers")
+    @GetMapping(path = "/customers?projection=full")
     Collection<Customer> getCustomers();
 }

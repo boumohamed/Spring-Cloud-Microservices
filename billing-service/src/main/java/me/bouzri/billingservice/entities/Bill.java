@@ -21,6 +21,5 @@ public class Bill {
     private Collection<ProductItem> productItems;
     @Transient
     private Customer customer;
-    @Transient
-    private Product product;
+
 }
