@@ -10,7 +10,12 @@
 ## Customer Service
 ### All Customers
 ![image](https://user-images.githubusercontent.com/62290643/200776086-65ddf6e8-4513-46e7-986e-d0f4e76a5727.png)
-### One Customer
+### One Customer (By Id)
 ![image](https://user-images.githubusercontent.com/62290643/200776331-de954a06-02f6-4786-aee3-68cc917838df.png)
+## Products Service
+### All Products
+![image](https://user-images.githubusercontent.com/62290643/200777250-d7bc9122-d890-4239-b6c0-6a4ca1d6baf2.png)
+### One Product (By Id)
+![image](https://user-images.githubusercontent.com/62290643/200777548-889d86ff-465f-4e0b-9176-5d0ba8bca5b4.png)
 ## BIlling Service
 ![image](https://user-images.githubusercontent.com/62290643/200775821-94485528-c462-45db-bbb4-3d4e97cb08ae.png)
