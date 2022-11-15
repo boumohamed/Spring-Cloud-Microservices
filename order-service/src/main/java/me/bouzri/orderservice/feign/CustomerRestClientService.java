@@ -1,19 +1,19 @@
-package me.bouzri.billingservice.feign;
+package me.bouzri.orderservice.feign;
 
-import me.bouzri.billingservice.models.Customer;
+import me.bouzri.orderservice.models.Customer;
+import me.bouzri.orderservice.models.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.PagedModel;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import java.util.Collection;
 
 @FeignClient(name = "CUSTOMER-SERVICE")
-public interface CustomerRestClient {
-
+public interface CustomerRestClientService {
     @GetMapping(path = "/customers/{id}?projection=full")
     Customer getCustomer(@PathVariable(name = "id") Long id);
 
     @GetMapping(path = "/customers?projection=full")
     PagedModel<Customer> getCustomers();
 }
+

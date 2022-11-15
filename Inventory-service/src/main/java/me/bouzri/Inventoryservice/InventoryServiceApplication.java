@@ -6,6 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 import java.util.UUID;
 import java.util.stream.Stream;
@@ -22,7 +23,7 @@ public class InventoryServiceApplication {
 	CommandLineRunner start(ProductRepository pr)
 	{
 		return args -> {
-			Stream.of("Lenovo", "Dell", "HP").forEach(p -> {
+			Stream.of("Lenovo", "Dell", "HP", "Mac", "Samsung", "huawei").forEach(p -> {
 				Product product = new Product();
 				product.setId(UUID.randomUUID().toString());
 				product.setPrice(Math.random() * 8260);
