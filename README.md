@@ -1,9 +1,9 @@
 # ---------------- Spring Cloud Microservices ----------------
-1. use case
+# 1. use case
 ![image](https://user-images.githubusercontent.com/62290643/206123723-0f5d7345-b23d-4ecb-84cb-83346104a73d.png)
 
-## Angular Client : https://github.com/boumohamed/Spring_cloud_Microservices-Angular-Client.git
-2. Endpoints with insomnia
+
+# 2. Endpoints with insomnia
 ## 2.1 Inventory service - get all products
 ![image](https://user-images.githubusercontent.com/62290643/199279561-8a0685cb-f8a5-4b23-9d6c-889a20a49fe7.png)
 ## 2.2 Customer Service - get All Customers
@@ -24,3 +24,5 @@
 ## BIlling Service
 ![image](https://user-images.githubusercontent.com/62290643/200775821-94485528-c462-45db-bbb4-3d4e97cb08ae.png)
 ![image](https://user-images.githubusercontent.com/62290643/200777870-0beb6941-30dc-4cdc-b48c-30acc4a1f057.png)
+
+## Angular Client : https://github.com/boumohamed/Spring_cloud_Microservices-Angular-Client.git
