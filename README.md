@@ -14,6 +14,7 @@
 ![image](https://user-images.githubusercontent.com/62290643/199280713-d61fec69-b2e3-4028-aa52-75219e92c1bc.png)
 ### 2.3 Registry Eureka Service  
 - Visiting http://localhost:8761/ : Monitoring the state of every microservices registered in the discovery
+
 ![image](https://user-images.githubusercontent.com/62290643/199281126-a1092226-771c-4f14-84ad-65643e979169.png)
 # 3. EndPoints Endpoints with browser : contacting The Gatway
 ## 3.1 Customer Service
@@ -22,9 +23,13 @@
 
 ![image](https://user-images.githubusercontent.com/62290643/200776086-65ddf6e8-4513-46e7-986e-d0f4e76a5727.png)
 ### 3.1.2 One Customer (By Id)
+- Visiting http://localhost:9999/CUSTOMERS-SERVICE/customerbyid/1
+
 ![image](https://user-images.githubusercontent.com/62290643/200776331-de954a06-02f6-4786-aee3-68cc917838df.png)
 ## 3.2 Products Service
 ### 3.2.1 All Products
+- Visiting http://localhost:9999/PRODUCT-SERVICE/products
+
 ![image](https://user-images.githubusercontent.com/62290643/200777250-d7bc9122-d890-4239-b6c0-6a4ca1d6baf2.png)
 ### 3.2.2 One Product (By Id)
 ![image](https://user-images.githubusercontent.com/62290643/200777548-889d86ff-465f-4e0b-9176-5d0ba8bca5b4.png)
