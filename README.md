@@ -8,7 +8,8 @@
 ![image](https://user-images.githubusercontent.com/62290643/199279561-8a0685cb-f8a5-4b23-9d6c-889a20a49fe7.png)
 ## 2.2 Customer Service - get All Customers
 ![image](https://user-images.githubusercontent.com/62290643/199280713-d61fec69-b2e3-4028-aa52-75219e92c1bc.png)
-### Registry Eureka Service
+### 2.3 Registry Eureka Service  
+- Visiting http://localhost:8761/ 
 ![image](https://user-images.githubusercontent.com/62290643/199281126-a1092226-771c-4f14-84ad-65643e979169.png)
 # 3. EndPoints Endpoints with insomnia : contacting The Gatway
 ## 3.1 Customer Service
@@ -26,5 +27,17 @@
 ![image](https://user-images.githubusercontent.com/62290643/200775821-94485528-c462-45db-bbb4-3d4e97cb08ae.png)
 ![image](https://user-images.githubusercontent.com/62290643/200777870-0beb6941-30dc-4cdc-b48c-30acc4a1f057.png)
 
-#4 Angular Client 
+# 4 Angular Client 
+web app with angular that will consume the microservices architecture
 ## 4.1 repository Link : https://github.com/boumohamed/Spring_cloud_Microservices-Angular-Client.git
+
+
+
+## Products List
+![image](https://user-images.githubusercontent.com/62290643/202019727-5909dde8-634d-437a-a81d-f556084e9787.png)
+## Customers List
+![image](https://user-images.githubusercontent.com/62290643/202019848-a360a512-7e6a-4a15-b3ce-960f9202d11c.png)
+## Customer Orders List
+![image](https://user-images.githubusercontent.com/62290643/202019983-253bd49f-358c-4e9d-9f78-abb06a5dbc28.png)
+## Order Details
+![image](https://user-images.githubusercontent.com/62290643/202020120-098fe060-970c-44d3-b76e-0507703720c7.png)
