@@ -18,9 +18,10 @@ public class CustomerServiceApplication {
 		SpringApplication.run(CustomerServiceApplication.class, args);
 	}
 	@Bean
-	CommandLineRunner start(CustomerRepository cr)
+	CommandLineRunner start(CustomerRepository cr, RepositoryRestConfiguration r)
 	{
 		return args -> {
+			r.exposeIdsFor(Customer.class);
 			Stream.of("Bouzri","Mohamed", "Sanae", "Ali").forEach(c -> {
 				Customer customer = new Customer();
 				customer.setEmail(c.toLowerCase()+"@gmail.com");
