@@ -2,12 +2,13 @@ package me.bouzri.kafkabillingproducer.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.bouzri.kafkabillingproducer.models.Product;
 
 
-
-@Data @AllArgsConstructor @NoArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor @Builder
 public class ProductItem {
 
     private Long id;
@@ -15,7 +16,13 @@ public class ProductItem {
     private double price;
     private String productId;
 
-    private Bill bill;
+    private Product product;
 
+    private Order order;
+
+    public double getAmount()
+    {
+        return price * quantity;
+    }
 
 }

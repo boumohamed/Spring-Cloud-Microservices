@@ -25,7 +25,7 @@ public class OrderServiceApplication {
 		SpringApplication.run(OrderServiceApplication.class, args);
 	}
 
-	@Bean
+
 	CommandLineRunner start(OrderRepository or,
 							ProductItemRepository pir,
 							CustomerRestClientService crcs,

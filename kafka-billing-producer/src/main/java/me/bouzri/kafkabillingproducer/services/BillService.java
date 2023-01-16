@@ -1,19 +1,11 @@
 package me.bouzri.kafkabillingproducer.services;
 
-import lombok.AllArgsConstructor;
-import me.bouzri.kafkabillingproducer.entities.Bill;
-import me.bouzri.kafkabillingproducer.entities.ProductItem;
-import me.bouzri.kafkabillingproducer.feign.CustomerRestClient;
-import me.bouzri.kafkabillingproducer.feign.ProductItemRestClient;
-import me.bouzri.kafkabillingproducer.models.Customer;
-import me.bouzri.kafkabillingproducer.models.Product;
-import org.springframework.beans.factory.annotation.Autowired;
+import me.bouzri.kafkabillingproducer.entities.Order;
+import me.bouzri.kafkabillingproducer.enums.OrderStatus;
 import org.springframework.context.annotation.Bean;
-import org.springframework.hateoas.PagedModel;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
-import java.util.Random;
 import java.util.function.Supplier;
 
 @Service
@@ -21,10 +13,9 @@ public class BillService {
 
 
     @Bean
-    public Supplier<Bill> BillSupplier()
+    public Supplier<Order> BillSupplier()
     {
-        Bill bill = new Bill(null, new Date(), 1L, null, null);
-        return () ->  bill;
+        return () ->  new Order(null, new Date(), Math.random() > 0.5 ? OrderStatus.CREATED : OrderStatus.PENDING, Math.random() > 0.5 ? Math.random() > 0.5 ? 1L : 2L : Math.random() > 0.5 ? 3L : 4L, null, null);
     }
 
 
