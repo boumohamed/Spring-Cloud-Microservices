@@ -60,4 +60,11 @@ web app with angular that will consume the microservices architecture
 ![image](https://user-images.githubusercontent.com/62290643/206139343-dd97f0ce-9460-42eb-aad9-f22b3b31ce25.png)
 
 
+# 6. Kafka
+## 6.1 Bills Analysis By Customer (Real Time Ordering)
+
+![Analytics (1)](https://user-images.githubusercontent.com/62290643/212974331-cb72c423-d6f1-4b5f-a304-a50ad336d640.gif)
+
+
+
 
