@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 
 import me.bouzri.orderservice.entities.Order;
 import me.bouzri.orderservice.entities.ProductItem;
-import me.bouzri.orderservice.enums.OrderStatus;
 import me.bouzri.orderservice.feign.CustomerRestClientService;
 import me.bouzri.orderservice.feign.ProductItemRestClient;
 import me.bouzri.orderservice.models.Customer;
@@ -12,10 +11,8 @@ import me.bouzri.orderservice.models.Product;
 import me.bouzri.orderservice.repositories.OrderRepository;
 import me.bouzri.orderservice.repositories.ProductItemRepository;
 import org.springframework.context.annotation.Bean;
-import org.springframework.hateoas.PagedModel;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
