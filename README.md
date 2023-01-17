@@ -23,7 +23,7 @@
 
 ![image](https://user-images.githubusercontent.com/62290643/200776086-65ddf6e8-4513-46e7-986e-d0f4e76a5727.png)
 ### 3.1.2 One Customer (By Id)
-- Visiting http://localhost:9999/CUSTOMERS-SERVICE/customerbyid/1
+- Visiting http://localhost:9999/CUSTOMER-SERVICE/customers/1
 
 ![image](https://user-images.githubusercontent.com/62290643/200776331-de954a06-02f6-4786-aee3-68cc917838df.png)
 ## 3.2 Products Service
