@@ -16,7 +16,7 @@
 - Visiting http://localhost:8761/ : Monitoring the state of every microservices registered in the discovery
 
 ![image](https://user-images.githubusercontent.com/62290643/199281126-a1092226-771c-4f14-84ad-65643e979169.png)
-# 3. EndPoints Endpoints with browser : contacting The Gatway
+# 3. Endpoints with browser : contacting The Gatway
 ## 3.1 Customer Service
 ### 3.1.1 get All Customers
 - Visiting http://localhost:9999/CUSTOMERS-SERVICE/customers
@@ -51,7 +51,7 @@ web app with angular that will consume the microservices architecture
 ## 4.5 Order Details
 ![image](https://user-images.githubusercontent.com/62290643/202020120-098fe060-970c-44d3-b76e-0507703720c7.png)
 
-# 5. Secured Angular Client with keyycloak 
+# 5. Secured Angular Client with keykcloak 
 ## 5.1 Login page
 ![image](https://user-images.githubusercontent.com/62290643/206132384-c6cfe9d0-9f00-4b58-a7fe-6d98a27cfe51.png)
 ## 5.2 Client Orders After LogedIn
