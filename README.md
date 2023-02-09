@@ -16,7 +16,7 @@
 - Visiting http://localhost:8761/ : Monitoring the state of every microservices registered in the discovery
 
 ![image](https://user-images.githubusercontent.com/62290643/199281126-a1092226-771c-4f14-84ad-65643e979169.png)
-# 3. Endpoints with browser : contacting The Gatway
+# 3. Endpoints with browser : contacting The Gateway
 ## 3.1 Customer Service
 ### 3.1.1 get All Customers
 - Visiting http://localhost:9999/CUSTOMERS-SERVICE/customers
